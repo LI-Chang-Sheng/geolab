@@ -61,7 +61,7 @@ We’re using the Github workflow to accept modifications (even internally), bas
 * commit incrementally with readable and detailed commit messages
 
     * API:    an (incompatible) API change
-    * BLD:    change related to building ase
+    * BLD:    change related to building geolab
     * BUG:    bug fix
     * DEP:    deprecate something, or remove a deprecated object
     * DEV:    development tool or utility
@@ -71,7 +71,7 @@ We’re using the Github workflow to accept modifications (even internally), bas
     * REV:    revert an earlier commit
     * STY:    style fix
     * TST:    addition or modification of tests
-    * REL:    related to releasing ase
+    * REL:    related to releasing geolab
     >
 	> * make it compatible with all supported Pythons (see Installation).
     > * write more comments
