@@ -43,7 +43,7 @@ Once installed, you have to run these commands to use the project:
 
 	import geolab
 	 
-	 *or*
+*or*
 	 
 	from geolab import io
 
