@@ -5,7 +5,7 @@
 This file is used to test each module.
 """
 
-from config import read
+from config1 import read
 n, coord = read('qz.xyz')
 print n
 print coord
