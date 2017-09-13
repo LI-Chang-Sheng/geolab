@@ -99,4 +99,4 @@ def trajectory(filename=None, type='xyz'):
         istart = i * n_atoms
         iend = (i + 1) * n_atoms
         coordinatesframes.append(coordinates[istart:iend])
-    return n_atoms, coordinatesframes, nframe
+    return n_atoms, np.array(coordinatesframes), nframe

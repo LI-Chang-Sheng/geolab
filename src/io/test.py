@@ -16,3 +16,4 @@ print n
 print coord
 print nf
 print len(coord[-1])
+print coord[0][0][0]=='O'
