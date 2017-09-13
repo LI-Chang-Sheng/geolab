@@ -13,7 +13,7 @@ dynamics data. We currently using
 >   
 >   LAMMPS: http://lammps.sandia.gov/
 >   
-to probe the mineral/water and mineral/organics interfaces.
+to probe the *mineral/water* and *mineral/organics* interfaces.
 
 This project is divided into following parts:
 
@@ -43,7 +43,7 @@ Once installed, you have to run these commands to use the project:
 
 	import geolab
 	 
-	 or
+	 *or*
 	 
 	from geolab import io
 
