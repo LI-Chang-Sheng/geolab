@@ -37,7 +37,7 @@ All comments and documentation should be written in *English*.
 ## Installation
 
 Just add the geolab directory to your PYTHONPATH like:
->   export PYTHONPATH=/path/to/geolab:$PYTHNPATH
+>   export PYTHONPATH=/path/to/geolab:$PYTHONPATH
 
 Once installed, you have to run these commands to use the project:
 
