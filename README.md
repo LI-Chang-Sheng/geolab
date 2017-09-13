@@ -75,11 +75,11 @@ We’re using the Github workflow to accept modifications (even internally), bas
 	>
 	> and make sure that
     >
-	>  make it compatible with all supported Pythons (see Installation).
-    >  write more comments
-    >  fix docstrings   >using Numpy docstring style
-    >  write a test
-    >  add some documentation
+	> * make it compatible with all supported Pythons (see Installation).
+    > * write more comments
+    > * fix docstrings -------- using Numpy docstring style
+    > * write a test
+    > * add some documentation
 
 * submit a pull-request against the master branch of this repository
 
