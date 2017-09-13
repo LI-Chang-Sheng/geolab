@@ -24,7 +24,7 @@ This project is divided into following parts:
 
 ## Language
 
-The development language is *Python*. 
+The development language is *Python*. We will follow [PEP8](https://www.python.org/dev/peps/pep-0008/) guide.
 
 All comments and documentation should be written in *English*.
 
