@@ -9,7 +9,7 @@ except ImportError:
                   'this module')
 
 
-def read(filename=None, type='xyz'):
+def configuration(filename=None, type='xyz'):
     """
     Currently support xyz format only
 
