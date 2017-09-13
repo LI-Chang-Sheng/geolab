@@ -4,5 +4,5 @@ io
 .. toctree::
    :maxdepth: 4
 
-   config
+   read
    test

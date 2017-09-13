@@ -8,13 +8,22 @@ I/O
 
 .. toctree::
    :maxdepth: 4
-   
-   .. toctree::
-      
-	  config
+   :caption: Contents: 
+
+   io/read
+
+   io/test
 
 structure
 =========
+
+.. toctree::
+
+   structure/rdf
+   
+   structure/hbonds
+   
+   structure/density
 
 
 dynamics

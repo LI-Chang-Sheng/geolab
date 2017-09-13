@@ -1,8 +1,7 @@
-io
-==
+structure
+=========
 
 .. toctree::
    :maxdepth: 4
 
-   read
-   test
+   rdf

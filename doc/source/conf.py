@@ -23,7 +23,8 @@ import sphinx_rtd_theme
 import os
 import sys
 sys.path.insert(0, os.path.abspath('../../src'))
-#sys.path.insert(0, os.path.abspath('../../src/*'))
+sys.path.insert(0, os.path.abspath('../../src/io'))
+sys.path.insert(0, os.path.abspath('../../src/structure'))
 
 # -- General configuration ------------------------------------------------
 

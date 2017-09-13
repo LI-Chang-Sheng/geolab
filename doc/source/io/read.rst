@@ -1,7 +1,7 @@
-config module
-=============
+read module
+===========
 
-.. automodule:: config
+.. automodule:: read
     :members:
     :undoc-members:
     :show-inheritance:
