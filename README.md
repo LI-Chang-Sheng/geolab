@@ -80,7 +80,7 @@ We’re doing our best to document each usage of the project but you can improve
 
 ## License
 
-We’re using the *GNU GENERAL PUBLIC LICENSE Version 3* license.
+We’re using the *GPL-3.0* license.
 
 
 ## Credits
