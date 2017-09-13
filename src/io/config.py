@@ -8,19 +8,27 @@ except ImportError:
     warnings.warn('Please install numpy if you plan to use'
                   'this module')
 
+
 def read(filename=None, type='xyz'):
     """
-    Currently support xyz format
-    
+    Currently support xyz format only
+
     Read a configuration file named filename, and return a numpy array
     with element ['name', x, y, z]
-    Parameter
-    ----------
+    
+    Parameters
+    -----------
     filename: str
         filename or path to the file from which you want to load configration
-    Return
-    -------
-     return: int number of atoms and a list [['atom', x, y, z],['atom', x, y, z]]
+    
+    Returns
+    --------
+    return: int
+        number of atoms
+        
+    return: ndarray
+        name and positions
+    
     """
     if type == 'xyz':
         coordinates = []
@@ -28,11 +36,11 @@ def read(filename=None, type='xyz'):
         n_atoms = int(xyz.readline())
         title = xyz.readline()
         for line in xyz:
-            if line.split()[0] =="%d\n"%n_atoms or line.split()[0] =="i" or line=="%s"%title:
+            if line.split()[0] == "%d\n" % n_atoms or line.split()[0] == "i" or line == "%s" % title:
                 pass
             else:
                 atom, x, y, z = line.split()
                 coordinates.append([atom, float(x), float(y), float(z)])
         return n_atoms, np.array(coordinates)
     else:
-        print "%s is not supported yet"%type
+        print "%s is not supported yet" % type
