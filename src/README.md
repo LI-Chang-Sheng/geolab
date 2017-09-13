@@ -1,6 +1,6 @@
-## source codes directory
+# source codes directory
 
-# io
+## io
 contains scripts for file processing, such as:
 * read, write, split
 * xyz to lammps, car to lammps
@@ -8,20 +8,20 @@ contains scripts for file processing, such as:
 * references
 * logger
 
-# structure
+## structure
 contains scripts for structure analysis, such as:
 * RDF
 * HBonds
 * Orientations
 * Density
 
-# energy and forces
+## energy and forces
 contains scripts for analyze energy and forces, such as:
 * vertical energy gap
 * pKa
 * PMF
 
-# dynamics
+## dynamics
 contains scripts for dynamics properties, such as:
 * MSD & diffusion coefficients
 * Heat transform (Not Implemented)
