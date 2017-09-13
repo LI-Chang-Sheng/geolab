@@ -99,3 +99,6 @@ We’re using the *GPL-3.0* license.
 
 * Author: Yingchun Zhang
 * E-mail: yczhang@smail.nju.edu.cn
+
+* Collaborator 1: Mengzi Zhou
+* E-mail: mg1629084@smail.nju.edu.cn
