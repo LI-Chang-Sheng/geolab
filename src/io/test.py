@@ -6,7 +6,13 @@ This file is used to test each module.
 """
 
 import read
-n, coord = read.configuration('qz.xyz')
+# n, coord = read.configuration('qz.xyz')
+# print n
+# print coord
+# print len(coord)
+
+n, coord, nf = read.trajectory('qz.xyz')
 print n
 print coord
-print len(coord)
+print nf
+print len(coord[-1])

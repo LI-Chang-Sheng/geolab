@@ -59,6 +59,20 @@ We’re using the Github workflow to accept modifications (even internally), bas
 * create a branch (optionally with the reference to the issue in the name)
 * hack hack hack
 * commit incrementally with readable and detailed commit messages
+
+** API:    an (incompatible) API change
+** BLD:    change related to building ase
+** BUG:    bug fix
+** DEP:    deprecate something, or remove a deprecated object
+** DEV:    development tool or utility
+** DOC:    documentation
+** ENH:    enhancement
+** MAINT:    maintenance commit (refactoring, typos, etc.)
+** REV:    revert an earlier commit
+** STY:    style fix (whitespace, PEP8)
+** TST:    addition or modification of tests
+** REL:    related to releasing ase
+
 * submit a pull-request against the master branch of this repository
 
 We’ll take care of tagging your issue with the appropriated labels and answer within a week (hopefully less!) to the problem you encounter.
