@@ -81,6 +81,9 @@ def trajectory(filename=None, type='xyz'):
         how many frames do you have
 
     """
+    if filename==None:
+        import warnings
+        warnings.warn('No file provided.')
     coordinates = []
     xyz = open(filename)
     n_atoms = int(xyz.readline())
