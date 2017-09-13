@@ -1,5 +1,3 @@
 > Copyright 2017, Yingchun Zhang.
 > 
-> Built with *Sphinx* using a *theme* provided by *Read the Docs*.
-
-[Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc):
+> Built with [Sphinx] (http://www.sphinx-doc.org/en/stable/) using a [theme] (https://github.com/rtfd/sphinx_rtd_theme) provided by [Read the Docs] (https://readthedocs.org/).
