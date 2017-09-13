@@ -6,14 +6,17 @@
 
 The aim of this project is to develop a python module for processing molecular 
 dynamics data. We currently using 
->
->	CP2K: https://www.cp2k.org/
->	DL_POLY: https://www.scd.stfc.ac.uk/Pages/DL_POLY.aspx
->	LAMMPS: http://lammps.sandia.gov/
->
+>   
+>   CP2K: https://www.cp2k.org/
+>   
+>   DL_POLY: https://www.scd.stfc.ac.uk/Pages/DL_POLY.aspx
+>   
+>   LAMMPS: http://lammps.sandia.gov/
+>   
 to probe the mineral/water and mineral/organics interfaces.
 
 This project is divided into following parts:
+
 >   1. io
 >   2. structure
 >   3. dynamics
@@ -21,9 +24,9 @@ This project is divided into following parts:
 
 ## Language
 
-The development language is PYTHON. 
+The development language is *Python*. 
 
-All comments and documentation should be written in English.
+All comments and documentation should be written in *English*.
 
 ## History
 
@@ -50,9 +53,8 @@ Enjoy!
 
 We’re really happy to accept contributions from the community, that’s the main reason why we open-sourced it! There are many ways to contribute, even if you’re not a technical person.
 
-We’re using the infamous [simplified Github workflow](http://scottchacon.com/2011/08/31/github-flow.html) to accept modifications (even internally), basically you’ll have to:
+We’re using the Github workflow to accept modifications (even internally), basically you’ll have to:
 
-* create an issue related to the problem you want to fix (good for traceability and cross-reference)
 * fork the repository
 * create a branch (optionally with the reference to the issue in the name)
 * hack hack hack
