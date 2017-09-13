@@ -5,14 +5,17 @@
 *Approx 10-15 lines*.
 
 The aim of this project is to provide a python module for processing molecular 
-dynamics data. We currently using CP2K, DLPOLY and LAMMPS to probe the interface
-between minerals and water.
+dynamics data. We currently using 
+	CP2K
+	DLPOLY
+	LAMMPS 
+to probe the mineral/water and mineral/organics interfaces.
 
 This project is divided into following parts:
-	1. io
-	2. structure
-	3. dynamics
-	4. energy and forces
+>   1. io
+>   2. structure
+>   3. dynamics
+>   4. energy and forces
 	
 ## Ethics
 
@@ -50,9 +53,9 @@ En revanche, pour éviter le coût du changement de contexte, les discussions te
 
 ## History
 
-I started this project in 2016 for my undergraduate thesis.
-
-I open-sourced it in 2017 and in an organized form.
+> I started this project in 2016 for my undergraduate thesis.
+> 
+> I open-sourced it in 2017 and in an organized form.
 
 ## Installation
 
@@ -62,7 +65,6 @@ Just add the geolab directory to your PYTHONPATH like:
 Once installed, you have to run these commands to use the project:
 
 	import geolab
- or 
 	from geolab import io
 
 Enjoy!
@@ -104,5 +106,5 @@ We’re using the GNU GENERAL PUBLIC LICENSE Version 3 license.
 
 ## Credits
 
-* [Yingchun Zhang]
-* yczhang@smail.nju.edu.cn
+* Author: Yingchun Zhang
+* E-mail: yczhang@smail.nju.edu.cn
