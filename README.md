@@ -5,7 +5,7 @@
 *Objective*
 
 The aim of this project is to develop a python module for processing molecular 
-dynamics data. We currently using 
+dynamics data. We currently use
 >   
 >   CP2K: https://www.cp2k.org/
 >   
