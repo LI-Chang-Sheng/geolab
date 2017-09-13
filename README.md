@@ -1,14 +1,16 @@
 # geolab
 
-## 1.0.0
+## VERSION 1.0.0
 
-*Approx 10-15 lines*.
+*Objective*
 
-The aim of this project is to provide a python module for processing molecular 
+The aim of this project is to develop a python module for processing molecular 
 dynamics data. We currently using 
-	CP2K
-	DLPOLY
-	LAMMPS 
+>
+>	CP2K: https://www.cp2k.org/
+>	DL_POLY: https://www.scd.stfc.ac.uk/Pages/DL_POLY.aspx
+>	LAMMPS: http://lammps.sandia.gov/
+>
 to probe the mineral/water and mineral/organics interfaces.
 
 This project is divided into following parts:
@@ -16,40 +18,12 @@ This project is divided into following parts:
 >   2. structure
 >   3. dynamics
 >   4. energy and forces
-	
-## Ethics
-
-This project operates under the W3C's
-[Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc):
-
-> W3C is a growing and global community where participants choose to work
-> together, and in that process experience differences in language, location,
-> nationality, and experience. In such a diverse environment, misunderstandings
-> and disagreements happen, which in most cases can be resolved informally. In
-> rare cases, however, behavior can intimidate, harass, or otherwise disrupt one
-> or more people in the community, which W3C will not tolerate.
->
-> A Code of Ethics and Professional Conduct is useful to define accepted and
-> acceptable behaviors and to promote high standards of professional
-> practice. It also provides a benchmark for self evaluation and acts as a
-> vehicle for better identity of the organization.
-
-We hope that our community group act according to these guidelines, and that
-participants hold each other to these high standards. If you have any questions
-or are worried that the code isn't being followed, please contact the owner of the repository.
-
 
 ## Language
 
-The development language is English. All comments and documentation should be written in English, so that we don't end up with “franglais” methods, and so we can share our learnings with developers around the world.
+The development language is PYTHON. 
 
-However, the domain language is French. We consider each tax, collecting organism and French regulation as a domain-specific term. In the same fashion, well-known abbreviations of these domain-specific terms are accepted.
-
-OR
-
-Par souci de lisibilité pour les partenaires, la langue utilisée pour la description et le suivi de fonctionnalités est le français.
-
-En revanche, pour éviter le coût du changement de contexte, les discussions techniques peuvent se faire en anglais, la langue la plus utilisée dans le cadre du développement logiciel.
+All comments and documentation should be written in English.
 
 ## History
 
@@ -60,11 +34,14 @@ En revanche, pour éviter le coût du changement de contexte, les discussions te
 ## Installation
 
 Just add the geolab directory to your PYTHONPATH like:
-    export PYTHONPATH=/path/to/geolab:$PYTHNPATH
+>   export PYTHONPATH=/path/to/geolab:$PYTHNPATH
 
 Once installed, you have to run these commands to use the project:
 
 	import geolab
+	 
+	 or
+	 
 	from geolab import io
 
 Enjoy!
