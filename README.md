@@ -72,8 +72,6 @@ We’re using the Github workflow to accept modifications (even internally), bas
     * STY:    style fix (whitespace, PEP8)
     * TST:    addition or modification of tests
     * REL:    related to releasing ase
-	> 
-	> and make sure that
     >
 	> * make it compatible with all supported Pythons (see Installation).
     > * write more comments
