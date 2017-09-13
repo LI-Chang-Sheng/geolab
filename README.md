@@ -69,7 +69,7 @@ We’re using the Github workflow to accept modifications (even internally), bas
     * ENH:    enhancement
     * MAINT:    maintenance commit (refactoring, typos, etc.)
     * REV:    revert an earlier commit
-    * STY:    style fix (whitespace, PEP8)
+    * STY:    style fix
     * TST:    addition or modification of tests
     * REL:    related to releasing ase
     >
